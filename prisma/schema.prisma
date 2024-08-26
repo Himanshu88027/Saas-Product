@@ -20,7 +20,7 @@ model Video {
   publicId       String
   originalSize   String
   compressesSize String
-  duration       String
+  duration       Float
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 }
